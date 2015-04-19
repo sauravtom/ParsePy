@@ -81,7 +81,7 @@ your *master key*.
 
 ~~~~~ {python}
 from parse_rest.connection import register
-register(<application_id>, <rest_api_key>[, master_key=None])
+register(<application_id>, <rest_api_key>, master_key=None)
 ~~~~~
 
 Once your application calls `register`, you will be able to read, write
